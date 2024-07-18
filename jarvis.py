@@ -134,7 +134,7 @@ if __name__ == "__main__":
             try:
                 speak("what shoul i say")
                 content=takeCommand()
-                to="________________"
+                to="________email________"
                 sendEmail(to,content)
                 speak("Email has been sent")
 
